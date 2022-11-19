@@ -2,8 +2,6 @@ import React from "react";
 
 import heroImage from "../assets/heroImage.png";
 
-import FloatingElements from "./UI/FloatingElements";
-
 const Hero = () => {
   return (
     <section className=" w-screen h-[60vh] md:h-[75vh]  flex justify-center items-center gap-7 m-auto   px-4 lg:px-56">
