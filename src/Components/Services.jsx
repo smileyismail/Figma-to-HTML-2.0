@@ -2,11 +2,11 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 
-import SlashBlack from "../assets/slash_black.png";
-import SlashWhite from "../assets/slash_white.png";
+// import SlashBlack from "../assets/slash_black.png";
+// import SlashWhite from "../assets/slash_white.png";
 import VideoImage from "../assets/VIDEOBG.png";
 import SlantedGreen from "../assets/SlantedGreenBG.png";
-import Photo1 from "../assets/photo.png";
+// import Photo1 from "../assets/photo.png";
 
 const Services = () => {
   return (
