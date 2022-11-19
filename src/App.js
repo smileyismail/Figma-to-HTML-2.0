@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./Components/Contact";
 
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
@@ -10,12 +11,13 @@ const App = () => {
     <>
       <Header />
       <main className="relative w-screen">
-        <div className="absolute -z-10">
+        <div className="absolute">
           <FloatingElements />
         </div>
         <div className="w-screen">
           <Hero />
           <Services />
+          <Contact />
         </div>
       </main>
     </>
