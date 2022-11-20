@@ -1,10 +1,11 @@
 import React from "react";
-import Contact from "./Components/Contact";
 
 import Header from "./Components/Header";
+import FloatingElements from "./Components/UI/FloatingElements";
 import Hero from "./Components/Hero";
 import Services from "./Components/Services";
-import FloatingElements from "./Components/UI/FloatingElements";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Hero />
           <Services />
           <Contact />
+          <Footer />
         </div>
       </main>
     </>
