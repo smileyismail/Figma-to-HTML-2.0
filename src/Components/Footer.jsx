@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="flex flex-col sm:flex-row justify-start items-start gap-10  mt-20">
         <div className="flex justify-start items-start gap-4">
           <img src={logo} alt="NinjaMail" className="lg:w-20" />
-          <h1 className="font-extrabold text-xl lg:text-2xl">NinjaMail</h1>
+          <h1 className="font-extrabold text-2xl lg:text-3xl">NinjaMail</h1>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 font-semibold gap-10">
