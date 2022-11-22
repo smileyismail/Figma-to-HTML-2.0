@@ -48,7 +48,7 @@ const Services = () => {
           className="h-[700px] w-full sm:h-[1000px]"
         />
 
-        <div className="absolute w-[220px] md:w-[310px] bg-white left-4 -top-52 md:top-48 md:left-[15%]">
+        <div className="absolute w-[220px] md:w-[310px] bg-white left-4 -top-52 lg:top-48 lg:left-[15%]">
           <img src={Photo1} alt="Photo1" className="w-full" />
           <div className="p-6 bg-white">
             <p className="text-sm mb-2">
@@ -61,7 +61,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="absolute w-[220px] md:w-[310px] right-4 bottom-56 md:top-72 md:left-[45%]">
+        <div className="absolute w-[220px] md:w-[310px] right-4 bottom-56 lg:top-72 lg:left-[45%]">
           <img src={Photo2} alt="Photo2" className="w-full" />
           <div className="p-6 bg-white">
             <p className="text-sm mb-2">
@@ -74,7 +74,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="absolute w-[220px] md:w-[310px] left-8 md:left-auto bottom-0 md:bottom-36 md:right-20">
+        <div className="absolute w-[220px] md:w-[310px] left-8 lg:left-auto bottom-0 lg:bottom-36 md:right-20">
           <h1 className="font-black text-3xl md:text-5xl font-heading">
             The source for proven, engaging email campaigns
           </h1>
