@@ -6,9 +6,9 @@ import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <section className="w-screen mt-30 flex justify-center items-center flex-col">
+    <section className="w-screen mt-30 flex justify-center items-center flex-col font-text">
       <div className="h-[350px] w-screen text-center text-white font-extrabold bg-custom-green flex justify-center items-center flex-col gap-10">
-        <h1 className="text-5xl">Get started today!</h1>
+        <h1 className="text-5xl font-heading">Get started today!</h1>
         <button className="px-6 py-3  bg-white text-custom-green text-lg">
           PICK A PLAN
         </button>

@@ -10,6 +10,10 @@ module.exports = {
         "video-image": "url('/src/assets/VIDEOBG.png')",
         "slanted-green": "url('/src/assets/SlantedGreenBG.png')",
       },
+      fontFamily: {
+        heading: ["Playfair"],
+        text: ["Raleway"],
+      },
     },
   },
   plugins: [],

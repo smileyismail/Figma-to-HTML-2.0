@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center lg:px-20 py-5">
+    <header className="flex justify-between items-center lg:px-20 py-5 font-text">
       <div className="flex justify-center items-center gap-4">
         <img src={logo} alt="NinjaMail" className="lg:w-24" />
         <h1 className="font-extrabold text-3xl lg:text-4xl">NinjaMail</h1>

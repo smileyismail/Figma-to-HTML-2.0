@@ -4,8 +4,8 @@ import { brandsData } from "../Utils/brandsData";
 
 const Contact = () => {
   return (
-    <section className="w-screen mt-20 flex justify-center items-center flex-col gap-16">
-      <h1 className="text-center text-4xl font-extrabold sm:w-3/4 w-10/12 sm:text-5xl">
+    <section className="w-screen mt-20 flex justify-center items-center flex-col gap-16 font-text mb-20">
+      <h1 className="text-center text-4xl font-extrabold sm:w-3/4 w-10/12 sm:text-5xl font-heading">
         Learn how others are reaching their audience easier than ever before.
       </h1>
 
@@ -23,7 +23,7 @@ const Contact = () => {
         </button>
       </div>
 
-      <h1 className="text-center text-4xl font-extrabold sm:w-1/4 w-10/12 sm:text-5xl">
+      <h1 className="text-center text-4xl font-extrabold lg:w-1/4 w-9/12 sm:text-5xl font-heading">
         All the best brands already use us.
       </h1>
 
