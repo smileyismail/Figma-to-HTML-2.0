@@ -4,16 +4,16 @@ import heroImage from "../assets/heroImage.png";
 
 const Hero = () => {
   return (
-    <section className=" w-screen h-[60vh] md:h-[75vh]  flex justify-center items-center gap-7 m-auto   px-4 lg:px-56">
-      <div className="relative w-full h-auto flex flex-col justify-center items-start gap-8">
+    <section className="w-screen px-6 sm:px-20 lg:px-44 h-[55vh] sm:h-[75vh] flex justify-center items-center">
+      <div className="w-screen relative flex justify-center items-start flex-col gap-8">
         <h1 className="text-5xl lg:text-6xl font-black font-heading">
           Create Stunning <br /> Email Campaigns
         </h1>
-        <p className="text-base lg:w-1/2 font-text font-medium">
+        <p className="text-base w-full lg:w-1/2 font-text font-medium pt-10 sm:pt-0">
           Create and launch email campaigns that captivate your customers in
           just a few clicks.
         </p>
-        <div className="w-screen flex justify-center md:justify-start items-center gap-10 font-black text-sm md:text-xl  font-text">
+        <div className="w-full flex justify-center md:justify-start items-center gap-10 font-black text-sm md:text-xl  font-text">
           <button className="px-6 py-3 lg:px-8 lg:py-4 text-white font-extrabold bg-custom-green border-4 border-custom-green">
             TRY NOW
           </button>
@@ -25,7 +25,7 @@ const Hero = () => {
         <img
           src={heroImage}
           alt="heroImage"
-          className="absolute right-0 top-center -z-10"
+          className="absolute w-auto right-0 top-center -z-10"
         />
       </div>
     </section>
